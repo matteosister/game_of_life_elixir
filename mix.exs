@@ -7,6 +7,7 @@ defmodule GameOfLife.Mixfile do
      elixir: "~> 1.0",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
+     escript: [main_module: GameOfLife.CLI],
      deps: deps]
   end
 
