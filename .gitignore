@@ -2,3 +2,4 @@
 /deps
 erl_crash.dump
 *.ez
+game_of_life
